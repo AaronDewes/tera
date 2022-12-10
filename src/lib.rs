@@ -16,7 +16,7 @@ mod context;
 mod errors;
 mod filter_utils;
 mod parser;
-mod renderer;
+pub mod renderer;
 mod template;
 mod tera;
 mod utils;

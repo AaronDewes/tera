@@ -5,7 +5,7 @@ mod tests;
 mod call_stack;
 mod for_loop;
 mod macros;
-mod processor;
+pub mod processor;
 mod stack_frame;
 
 use std::io::Write;
