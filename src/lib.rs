@@ -16,6 +16,7 @@ mod context;
 mod errors;
 mod filter_utils;
 mod parser;
+#[allow(missing_docs)]
 pub mod renderer;
 mod template;
 mod tera;

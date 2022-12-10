@@ -1068,4 +1068,9 @@ impl<'a> Processor<'a> {
 
         Ok(())
     }
+
+    /// Get all vars defined within this template (After rendering)
+    pub fn get_ctx(&mut self) -> HashMap<String, Value> {
+        self.call_stack.global_frame_mut().context_owned()
+    }
 }
